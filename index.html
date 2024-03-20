@@ -58,6 +58,15 @@
       <p>Очень вкусная свежая вкусная.Подходит к пиву хорошо.</p>
       <p>Цена: 1200  рублей 1 кг</p>
     </div>
+    <form method='POST' action='https://demo.paykeeper.ru/create/' >
+  Введите сумму оплаты: 
+    <input type='text' name='sum' value='100'/> <br />
+  Введите номер заказа: 
+    <input type='text' name='orderid' value='123456'/> <br />
+  Введите название услуги: 
+    <input type='text' name='service_name' value='Тестовая оплата'/> <br />
+  <input type='submit' value='Перейти к оплате' />
+</form>
   </main>
 </body>
 </html>
